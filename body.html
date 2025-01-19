@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+  <!--header start-->
+  <header>
+
+    <!--upper page start-->
+    <div class="upper-page">
+      <div class="marquee">
+        <span>আমার সোনার বাংলা আমি তোমায় ভালবাসি চিরদিন তোমার আকাশ তোমার বাতাস আমার প্রাণে বাজায় বাঁশি</span>
+      </div>
+      <div class="logo-data">
+        <div class="logo">
+          <img src="logo.png">
+        </div>
+        <div class="data">
+          <h1>Welcome To</h1>
+          <h2>Kazi Montu<br> College</h2>
+        </div>
+      </div>
+      <!--search menu start-->
+      <div class="menu-search">
+
+
+        <div class="menu">
+
+          <div class="master-menu-container">
+            <!-- Master Menu Toggle Button -->
+            <div class="master-menu-toggle" onclick="toggleNav()">
+              <i class="fas fa-bars" id="menuIcon"></i>
+            </div>
+
+            <!-- Navigation -->
+            <nav id="navMenu">
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-home"></i> Home</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="index.html">Main page</a>
+                <!-- <a href="#">Submenu 2</a>
+      <a href="#">Submenu 3</a>  -->
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-info-circle"></i> About</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="history of college.html">History of college</a>
+                <a href="body.html">Govering Body</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-cogs"></i> Services</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Online Admission</a>
+                <a href="feature.html">Payment</a>
+                <a href="feature.html">Result</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-image"></i> Gallery</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Photos</a>
+                <a href="feature.html">Videos</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-users"></i> Clubs</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Sports Club</a>
+                <a href="feature.html">Cultural Club</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-bullhorn"></i> Notice</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Upcoming Events</a>
+                <a href="feature.html">Important Updates</a>
+              </div>
+            </nav>
+          </div>
+
+        </div>
+
+        <div class="search">
+          <div class="search-inside">
+            Search
+          </div>
+          <div class="search-logo">
+            <div class="search-icon">
+              <img src="https://cdn-icons-png.flaticon.com/512/482/482631.png" alt="Search Icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--search menu end-->
+    </div>
+    <!--upper page end-->
+  </header>
+  <!--header end-->
+<body>
+<!-- Govering body start-->
+<div class="gov-body">
+  <div class="body-text">
+    <h3>
+      Member Of Govering Body
+    </h3>
+  </div>
+  <div class="photo-card-container">
+        <!-- First Card -->
+        <div class="photo-card">
+            <img src="smchead.jpg" alt="Photo" class="photo">
+            <div class="card-content">
+                <h2 class="name">Mrs.Jessica Noor</h2>
+                <p class="description">
+                  Chairman's of EdHock
+               </p>
+            </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="photo-card">
+            <img src="shamol.jpg" alt="Photo" class="photo">
+            <div class="card-content">
+                <h2 class="name">Dr. Shamol Candra Barai</h2>
+                <p class="description">Enthusiastic member(National University)</p>
+            </div>
+        </div>
+
+        <!-- Third Card -->
+        <div class="photo-card">
+            <img src="amit.jpg" alt="Photo" class="photo">
+            <div class="card-content">
+                <h2 class="name">Mr.Amit Mahmud</h2>
+                <p class="description">Founder member</p>
+            </div>
+        </div>
+
+        <!-- Fourth Card -->
+        <div class="photo-card">
+            <img src="unknown.jpg" alt="Photo" class="photo">
+            <div class="card-content">
+                <h2 class="name">Mr.Kamal Talukder</h2>
+                <p class="description">Assistant Teacher Of Bangla.</p>
+            </div>
+        </div>
+
+        <!-- Fifth Card -->
+        <div class="photo-card">
+            <img src="headtecher.jpg" alt="Photo" class="photo">
+            <div class="card-content">
+                <h2 class="name">Mr.Lalit Chandra Baidya</h2>
+                <p class="description">Principal Of Kazi Montu College .</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- Govering body end-->
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <p><a href="https://www.google.com/maps?q=23.0628035,90.0446242" target="_blank"><i class="fas fa-map-marker-alt"></i> </a>Location</p>
+        <p>Bhangerhat, Kotalipara, Gooalgonj </p>
+      </div>
+      <div class="footer-section">
+        <p><a href="mailto:kazimontucollege1987@gmail.com"><i class="fas fa-envelope"></i><a> Email</p>
+        <p>kazimontucollege1987@gmail.com
+          <br>kazimontucollege@yahoo.com
+        </p>
+      </div>
+      <div class="footer-section">
+        <p><a href="tel:+8801713649196"><i class="fas fa-phone-alt"></i> </a>Phone</p>
+        <p>01713649196<br>01309109592</p>
+      </div>
+    </div>
+    <div class="footer-icons">
+      <a href="https://www.facebook.com/kmc.info" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+  <!-- School Info Section -->
+  <div class="school-info">
+    <h1>Kazi Montu College</h1>
+    <p>Your gateway to world-class education and knowledge.</p>
+    <div class="site-map">
+      <h2>Site Map</h2>
+      <div class="site-map-links">
+        <div class="left">
+          <ul>
+            <li><a href="feature.html">About Us</a></li>
+            <li><a href="feature.html">Admissions</a></li>
+            <li><a href="section.html">Academics</a></li>
+            <li><a href="section.html">Faculty</a></li>
+            <li><a href="feature.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="https://www.facebook.com/shatabarsaTv/videos/1052221065952522/?app=fbl">News</a></li>
+            <li><a href="feature.html">Gallery</a></li>
+            <li><a href="tel:+8801309109592">Contact Us</a></li>
+            <li><a href="feature.html">Resources</a></li>
+            <li><a href="feature.html">Alumni</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

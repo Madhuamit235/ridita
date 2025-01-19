@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+  <!--header start-->
+  <header>
+
+    <!--upper page start-->
+    <div class="upper-page">
+      <div class="marquee">
+        <span>আমার সোনার বাংলা আমি তোমায় ভালবাসি চিরদিন তোমার আকাশ তোমার বাতাস আমার প্রাণে বাজায় বাঁশি</span>
+      </div>
+      <div class="logo-data">
+        <div class="logo">
+          <img src="logo.png">
+        </div>
+        <div class="data">
+          <h1>Welcome To</h1>
+          <h2>Kazi Montu<br> College</h2>
+        </div>
+      </div>
+      <!--search menu start-->
+      <div class="menu-search">
+
+
+        <div class="menu">
+
+          <div class="master-menu-container">
+            <!-- Master Menu Toggle Button -->
+            <div class="master-menu-toggle" onclick="toggleNav()">
+              <i class="fas fa-bars" id="menuIcon"></i>
+            </div>
+
+            <!-- Navigation -->
+            <nav id="navMenu">
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-home"></i> Home</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="index.html">Main page</a>
+                <!-- <a href="#">Submenu 2</a>
+      <a href="#">Submenu 3</a>  -->
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-info-circle"></i> About</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="history of college.html">History of college</a>
+                <a href="body.html">Govering Body</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-cogs"></i> Services</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Online Admission</a>
+                <a href="feature.html">Payment</a>
+                <a href="feature.html">Result</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-image"></i> Gallery</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Photos</a>
+                <a href="feature.html">Videos</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-users"></i> Clubs</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Sports Club</a>
+                <a href="feature.html">Cultural Club</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-bullhorn"></i> Notice</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Upcoming Events</a>
+                <a href="feature.html">Important Updates</a>
+              </div>
+            </nav>
+          </div>
+
+        </div>
+
+        <div class="search">
+          <div class="search-inside">
+            Search
+          </div>
+          <div class="search-logo">
+            <div class="search-icon">
+              <img src="https://cdn-icons-png.flaticon.com/512/482/482631.png" alt="Search Icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--search menu end-->
+    </div>
+    <!--upper page end-->
+  </header>
+  <!--header end-->
+<body>
+<div class="unique-card-container">
+    <img src="Suvra Mitra.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Suvra Mitra<br>Assistant Professor (Management)</h2>
+        <p><span class="unique-card-label">Index Number:</span> D400519</p>
+        <p><span class="unique-card-label">Gender:</span> Women</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1967-01-11</p>
+        <p><span class="unique-card-label">Joining Date:</span> 1992-08-21</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01715489366</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Nikhil Chandra Biswas .jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Nikhil Chandra Biswas<br>Assistant Professor (Accounting)</h2>
+        <p><span class="unique-card-label">Index Number:</span> D405072</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1966-05-08</p>
+        <p><span class="unique-card-label">Joining Date:</span> 1993-06-10</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01929202106</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Dijendranath Biswas.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Dijendranath Biswas<br>Assistant Professor (Economics)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N/A</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1964-10-10</p>
+        <p><span class="unique-card-label">Joining Date:</span> 1998-02-23</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01715620899</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Nandita Sen.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Nandita Sen<br>Lecturer (Home Economics)</h2>
+        <p><span class="unique-card-label">Index Number:</span> D3082511</p>
+        <p><span class="unique-card-label">Gender:</span> Women</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1984-09-28</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2010-01-14</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01722243036</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Dipa Barai.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Dipa Barai<br>Lecturer (Economics)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N3093987</p>
+        <p><span class="unique-card-label">Gender:</span> Women</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1988-11-01</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2016-10-27</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01966913183</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Aparna Barai.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Aparna Barai<br>Lecturer (Home Economics)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N3095418</p>
+        <p><span class="unique-card-label">Gender:</span> Women</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1981-09-15</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2012-11-14</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01758977496</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Chayan Biswas.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Chayan Biswas<br>Lecturer (Production Management & Marketing)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N3095420</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1984-07-03</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2014-09-17</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01634058405 / 01916496816</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Paritos Das.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Paritos Das<br>Lecturer (Marketing)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N3095419</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1986-08-20</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2014-09-20</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01722280699</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Mihir Kumar Roy.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Mihir Kumar Roy<br>Lecturer (Accounting)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N3098492</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1980-01-01</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2006-11-12</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01768931209</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+<div class="unique-card-container">
+    <img src="Dilip Kumar Roy.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Dilip Kumar Roy<br>Lecturer (Management) BMT</h2>
+        <p><span class="unique-card-label">Index Number:</span> 24103006</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1980-01-01</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2012-11-14</p>
+        <p><span class="unique-card-label">Blood Group:</span> AB+</p>
+        <p><span class="unique-card-label">Contact:</span> 01743323096</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Tapas Kumar Barai.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Tapas Kumar Barai<br>Lecturer (English) BMT</h2>
+        <p><span class="unique-card-label">Index Number:</span> 24103007</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1984-12-31</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2012-11-15</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01918965865</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Gibit Biswas.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Gibit Biswas<br>Lecturer (Bengali) BMT</h2>
+        <p><span class="unique-card-label">Index Number:</span> 24103008</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1978-12-30</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2012-11-15</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01915560341</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Bidhan Biswas.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Bidhan Biswas<br>Lecturer (Marketing)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N/A</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1984-01-01</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2014-09-18</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01937689283</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Dulal Mondal.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Dulal Mondal<br>Demonstrator (Computer)</h2>
+        <p><span class="unique-card-label">Index Number:</span> D3000259</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1974-09-11</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2002-11-10</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01961203903</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Provash Roy.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Provash Roy<br>Demonstrator (Computer) BMT</h2>
+        <p><span class="unique-card-label">Index Number:</span> 21111056</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1990-11-08</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2013-07-31</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01710654045</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <p><a href="https://www.google.com/maps?q=23.0628035,90.0446242" target="_blank"><i class="fas fa-map-marker-alt"></i> </a>Location</p>
+        <p>Bhangerhat, Kotalipara, Gooalgonj </p>
+      </div>
+      <div class="footer-section">
+        <p><a href="mailto:kazimontucollege1987@gmail.com"><i class="fas fa-envelope"></i><a> Email</p>
+        <p>kazimontucollege1987@gmail.com
+          <br>kazimontucollege@yahoo.com
+        </p>
+      </div>
+      <div class="footer-section">
+        <p><a href="tel:+8801713649196"><i class="fas fa-phone-alt"></i> </a>Phone</p>
+        <p>01713649196<br>01309109592</p>
+      </div>
+    </div>
+    <div class="footer-icons">
+      <a href="https://www.facebook.com/kmc.info" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+  <!-- School Info Section -->
+  <div class="school-info">
+    <h1>Kazi Montu College</h1>
+    <p>Your gateway to world-class education and knowledge.</p>
+    <div class="site-map">
+      <h2>Site Map</h2>
+      <div class="site-map-links">
+        <div class="left">
+          <ul>
+            <li><a href="feature.html">About Us</a></li>
+            <li><a href="feature.html">Admissions</a></li>
+            <li><a href="section.html">Academics</a></li>
+            <li><a href="section.html">Faculty</a></li>
+            <li><a href="feature.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="https://www.facebook.com/shatabarsaTv/videos/1052221065952522/?app=fbl">News</a></li>
+            <li><a href="feature.html">Gallery</a></li>
+            <li><a href="tel:+8801309109592">Contact Us</a></li>
+            <li><a href="feature.html">Resources</a></li>
+            <li><a href="feature.html">Alumni</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

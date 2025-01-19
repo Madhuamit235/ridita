@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+  <!--header start-->
+  <header>
+
+    <!--upper page start-->
+    <div class="upper-page">
+      <div class="marquee">
+        <span>আমার সোনার বাংলা আমি তোমায় ভালবাসি চিরদিন তোমার আকাশ তোমার বাতাস আমার প্রাণে বাজায় বাঁশি</span>
+      </div>
+      <div class="logo-data">
+        <div class="logo">
+          <img src="logo.png">
+        </div>
+        <div class="data">
+          <h1>Welcome To</h1>
+          <h2>Kazi Montu<br> College</h2>
+        </div>
+      </div>
+      <!--search menu start-->
+      <div class="menu-search">
+
+
+        <div class="menu">
+
+          <div class="master-menu-container">
+            <!-- Master Menu Toggle Button -->
+            <div class="master-menu-toggle" onclick="toggleNav()">
+              <i class="fas fa-bars" id="menuIcon"></i>
+            </div>
+
+            <!-- Navigation -->
+            <nav id="navMenu">
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-home"></i> Home</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="index.html">Main page</a>
+                <!-- <a href="#">Submenu 2</a>
+      <a href="#">Submenu 3</a>  -->
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-info-circle"></i> About</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="history of college.html">History of college</a>
+                <a href="body.html">Govering Body</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-cogs"></i> Services</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Online Admission</a>
+                <a href="feature.html">Payment</a>
+                <a href="feature.html">Result</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-image"></i> Gallery</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Photos</a>
+                <a href="feature.html">Videos</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-users"></i> Clubs</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Sports Club</a>
+                <a href="feature.html">Cultural Club</a>
+              </div>
+
+              <div class="menu-item" onclick="toggleSubmenu(this)">
+                <span><i class="fas fa-bullhorn"></i> Notice</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="submenu">
+                <a href="feature.html">Upcoming Events</a>
+                <a href="feature.html">Important Updates</a>
+              </div>
+            </nav>
+          </div>
+
+        </div>
+
+        <div class="search">
+          <div class="search-inside">
+            Search
+          </div>
+          <div class="search-logo">
+            <div class="search-icon">
+              <img src="https://cdn-icons-png.flaticon.com/512/482/482631.png" alt="Search Icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--search menu end-->
+    </div>
+    <!--upper page end-->
+  </header>
+  <!--header end-->
+<body>
+<!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Badal Krishna Biswas .jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Badal Krishna Biswas
+        <br>Assistant Teacher(Philosophy)</h2>
+      <p><span class="unique-card-label">Index Number:</span>D019443</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1965-01-01
+        </p>
+      <p><span class="unique-card-label">Joining Date:</span>1991-07-01</p>
+      <p><span class="unique-card-label">Blood Group:</span> A+</p>
+      <p><span class="unique-card-label">Contact:</span>01751252658</p>
+    </div>
+  </div>
+ <hr class="unique-card-divider">
+<!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Kamal Talukder.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Kamal Talukder<br>Assistant Teacher(Bengali)</h2>
+      <p><span class="unique-card-label">Index Number:</span>D405069</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1967-12-25
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>1993-06-09</p>
+      <p><span class="unique-card-label">Blood Group:</span> B+</p>
+      <p><span class="unique-card-label">Contact:</span>01718172314</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+<!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Samar Kumar Adhikari.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Samar Kumar Adhikari<br>Assistant Professor (Political Science)</h2>
+      <p><span class="unique-card-label">Index Number:</span></p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1967-10-19
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>1993-06-10</p>
+      <p><span class="unique-card-label">Blood Group:</span> B-</p>
+      <p><span class="unique-card-label">Contact:</span>01718916778</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+<!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Santi Lata Adhikari.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Santi Lata Adhikari<br>Lecturer of(Sanskriti)</h2>
+      <p><span class="unique-card-label">Index Number:</span>D405071</p>
+      <p><span class="unique-card-label">Gender:</span> Female</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1965-07-15
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>1993-06-12</p>
+      <p><span class="unique-card-label">Blood Group:</span>AB+
+        </p>
+      <p><span class="unique-card-label">Contact:</span>01774785834<br>01813147116</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+<!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Badrul Alam Miah.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Badrul Alam Miah
+
+<br>Assistant Professor (English)</h2>
+      <p><span class="unique-card-label">Index Number:</span>D407534</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1969-06-06
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>2002-09-25</p>
+      <p><span class="unique-card-label">Blood Group:</span> A+</p>
+      <p><span class="unique-card-label">Contact:</span>01923374793</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+<!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Shahadat Hossain Howlader.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Shahadat Hossain Howlader
+
+<br>Assistant Professor (Islamic History)
+</h2>
+      <p><span class="unique-card-label">Index Number:</span>D430429</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1967-11-14
+        </p>
+      <p><span class="unique-card-label">Joining Date:</span>1998-01-23</p>
+      <p><span class="unique-card-label">Blood Group:</span> O+</p>
+      <p><span class="unique-card-label">Contact:</span>01714273397</p>
+    </div>
+  </div>
+ <hr class="unique-card-divider">
+ <!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Asim Kumar Mazumder.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Asim Kumar Majumdar<br>Assistant Professor (Sociology)
+</h2>
+      <p><span class="unique-card-label">Index Number:</span>D430431</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1971-09-21
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>1998-12-23</p>
+      <p><span class="unique-card-label">Blood Group:</span>A-</p>
+      <p><span class="unique-card-label">Contact:</span>01721264998</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+  <!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Shankar Biswas.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Shankar Biswas<br>Assistant Professor (Computer</h2>
+      <p><span class="unique-card-label">Index Number:</span>D844348</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1973-08-01
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>2002-09-12</p>
+      <p><span class="unique-card-label">Blood Group:</span> 0+</p>
+      <p><span class="unique-card-label">Contact:</span>01729870411</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+  <!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Samiron Biswas.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Samiron Biswas<br>Lecturer of Physics</h2>
+      <p><span class="unique-card-label">Index Number:</span>D844349</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1973-12-08
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>2002-11-06</p>
+      <p><span class="unique-card-label">Blood Group:</span> O+</p>
+      <p><span class="unique-card-label">Contact:</span>01710060896</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+  <!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Anik Halder.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Anik Halder<br>Lecturer ofs</h2>
+      <p><span class="unique-card-label">Index Number:</span>D3081218</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1986-03-10
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>2010-06-30</p>
+      <p><span class="unique-card-label">Blood Group:</span> O+</p>
+      <p><span class="unique-card-label">Contact:</span>01724266983</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+  <!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Provash Chandra Mondal.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Provash Chandra Mondal<br>Lecturer (Sociology</h2>
+      <p><span class="unique-card-label">Index Number:</span>D3082510</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1977-05-02
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>2010-01-13</p>
+      <p><span class="unique-card-label">Blood Group:</span> B+</p>
+      <p><span class="unique-card-label">Contact:</span>01716059984</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+  <!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Kazi Hasan.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Kazi Hasan<br>Lecturer (Political Science)</h2>
+      <p><span class="unique-card-label">Index Number:</span>D3085540</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1971-12-25
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>2006-11-13</p>
+      <p><span class="unique-card-label">Blood Group:</span> B+</p>
+      <p><span class="unique-card-label">Contact:</span>01712577522</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+  <!--image card start-->
+<div class="card-wrapper">
+  <div class="unique-card-container">
+    <img src="Kartik Biswas.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+      <h2 class="unique-card-name">Kartik Biswas<br>Lecturer (Social Welfare)</h2>
+      <p><span class="unique-card-label">Index Number:</span>N3085538</p>
+      <p><span class="unique-card-label">Gender:</span> Male</p>
+      <p><span class="unique-card-label">Date of Birth:</span>1984-04-16
+      </p>
+      <p><span class="unique-card-label">Joining Date:</span>2011-10-10</p>
+      <p><span class="unique-card-label">Blood Group:</span> B+</p>
+      <p><span class="unique-card-label">Contact:</span>01725615956</p>
+    </div>
+  </div>
+  <hr class="unique-card-divider">
+<div class="unique-card-container">
+    <img src="Kartik Biswas.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Kartik Biswas<br>Lecturer (Social Welfare)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N3085538</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Joining Date:</span> 1984-04-16</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01725615956</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Jiban Kumar Mondol.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Jiban Kumar Mondol<br>Lecturer (Geography)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N3085539</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1985-07-25</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2011-10-12</p>
+        <p><span class="unique-card-label">Blood Group:</span> A+</p>
+        <p><span class="unique-card-label">Contact:</span> 01721089882</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Tarun Chandra Nag.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Tarun Chandra Nag<br>Lecturer (Social Welfare)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N3092196</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1982-12-03</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2012-02-01</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01729908656</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Ujjal Biswas.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Ujjal Biswas<br>Lecturer (English)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N/A</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1991-05-15</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2019-01-07</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01721976062</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Prosanto Kumar Madhu.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Prosanto Kumar Madhu<br>Lecturer (Light Song)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N/A</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1978-12-11</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2019-01-01</p>
+        <p><span class="unique-card-label">Blood Group:</span> A+</p>
+        <p><span class="unique-card-label">Contact:</span> 01687080500</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Bishnu Pada Bala.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Bishnu Pada Bala<br>Lecturer (Bengali)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N/A</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1987-04-17</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2019-01-01</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01724652558</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Shabiha Sultana.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Shabiha Sultana<br>Lecturer (Political Science)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N/A</p>
+        <p><span class="unique-card-label">Gender:</span> Women</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1981-11-08</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2019-01-02</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01710882548</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Rawshon Ara Khanam.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Rawshon Ara Khanam<br>Lecturer (Library)</h2>
+        <p><span class="unique-card-label">Index Number:</span> N3097718</p>
+        <p><span class="unique-card-label">Gender:</span> Women</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1972-01-01</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2018-04-04</p>
+        <p><span class="unique-card-label">Blood Group:</span> O+</p>
+        <p><span class="unique-card-label">Contact:</span> 01746429912</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Dulal Mondal.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Dulal Mondal<br>Demonstrator (Computer)</h2>
+        <p><span class="unique-card-label">Index Number:</span> D3000259</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1974-09-11</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2002-11-10</p>
+        <p><span class="unique-card-label">Blood Group:</span> B+</p>
+        <p><span class="unique-card-label">Contact:</span> 01961203903</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+
+<div class="unique-card-container">
+    <img src="Bimal Hira.jpg" alt="Profile Picture" class="unique-card-image">
+    <div class="unique-card-info">
+        <h2 class="unique-card-name">Bimal Hira<br>Demonstrator (Secretarial Science)</h2>
+        <p><span class="unique-card-label">Index Number:</span> D844347</p>
+        <p><span class="unique-card-label">Gender:</span> Men</p>
+        <p><span class="unique-card-label">Date of Birth:</span> 1972-10-26</p>
+        <p><span class="unique-card-label">Joining Date:</span> 2002-09-19</p>
+        <p><span class="unique-card-label">Blood Group:</span> AB+</p>
+        <p><span class="unique-card-label">Contact:</span> 01728445587</p>
+    </div>
+</div>
+<hr class="unique-card-divider">
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <p><a href="https://www.google.com/maps?q=23.0628035,90.0446242" target="_blank"><i class="fas fa-map-marker-alt"></i> </a>Location</p>
+        <p>Bhangerhat, Kotalipara, Gooalgonj </p>
+      </div>
+      <div class="footer-section">
+        <p><a href="mailto:kazimontucollege1987@gmail.com"><i class="fas fa-envelope"></i><a> Email</p>
+        <p>kazimontucollege1987@gmail.com
+          <br>kazimontucollege@yahoo.com
+        </p>
+      </div>
+      <div class="footer-section">
+        <p><a href="tel:+8801713649196"><i class="fas fa-phone-alt"></i> </a>Phone</p>
+        <p>01713649196<br>01309109592</p>
+      </div>
+    </div>
+    <div class="footer-icons">
+      <a href="https://www.facebook.com/kmc.info" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+  <!-- School Info Section -->
+  <div class="school-info">
+    <h1>Kazi Montu College</h1>
+    <p>Your gateway to world-class education and knowledge.</p>
+    <div class="site-map">
+      <h2>Site Map</h2>
+      <div class="site-map-links">
+        <div class="left">
+          <ul>
+            <li><a href="feature.html">About Us</a></li>
+            <li><a href="feature.html">Admissions</a></li>
+            <li><a href="section.html">Academics</a></li>
+            <li><a href="section.html">Faculty</a></li>
+            <li><a href="feature.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="https://www.facebook.com/shatabarsaTv/videos/1052221065952522/?app=fbl">News</a></li>
+            <li><a href="feature.html">Gallery</a></li>
+            <li><a href="tel:+8801309109592">Contact Us</a></li>
+            <li><a href="feature.html">Resources</a></li>
+            <li><a href="feature.html">Alumni</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

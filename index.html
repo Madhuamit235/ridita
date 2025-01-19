@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css"></link>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title></title>
+</head>
+
+<body>
+  <!--header start-->
+  <header>
+    
+    <!--upper page start-->
+    <div class="upper-page">
+<div class="marquee">
+  <span>আমার সোনার বাংলা আমি তোমায় ভালবাসি চিরদিন তোমার আকাশ তোমার বাতাস আমার প্রাণে বাজায় বাঁশি</span>
+</div>
+<div class="logo-data">
+ <div class="logo">
+   <img src="logo.png">
+ </div> 
+  <div class="data">
+    <h1>Welcome To</h1>
+    <h2>Kazi Montu<br> College</h2>
+  </div>
+</div>
+<!--search menu start-->
+<div class="menu-search">
+  
+  
+  <div class="menu">
+    
+    <div class="master-menu-container">
+  <!-- Master Menu Toggle Button -->
+  <div class="master-menu-toggle" onclick="toggleNav()">
+    <i class="fas fa-bars" id="menuIcon"></i>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navMenu">
+    <div class="menu-item" onclick="toggleSubmenu(this)">
+      <span><i class="fas fa-home"></i> Home</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+    <div class="submenu">
+      <a href="index.html">Main page</a>
+     <!-- <a href="#">Submenu 2</a>
+      <a href="#">Submenu 3</a>  -->
+    </div>
+
+    <div class="menu-item" onclick="toggleSubmenu(this)">
+      <span><i class="fas fa-info-circle"></i> About</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+    <div class="submenu">
+      <a href="history of college.html">History of college</a>
+      <a href="body.html">Govering Body</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubmenu(this)">
+      <span><i class="fas fa-cogs"></i> Services</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+    <div class="submenu">
+      <a href="feature.html">Online Admission</a>
+      <a href="feature.html">Payment</a>
+      <a href="feature.html">Result</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubmenu(this)">
+      <span><i class="fas fa-image"></i> Gallery</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+    <div class="submenu">
+      <a href="feature.html">Photos</a>
+      <a href="feature.html">Videos</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubmenu(this)">
+      <span><i class="fas fa-users"></i> Clubs</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+    <div class="submenu">
+      <a href="feature.html">Sports Club</a>
+      <a href="feature.html">Cultural Club</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubmenu(this)">
+      <span><i class="fas fa-bullhorn"></i> Notice</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+    <div class="submenu">
+      <a href="feature.html">Upcoming Events</a>
+      <a href="feature.html">Important Updates</a>
+    </div>
+  </nav>
+</div>
+    
+  </div>
+  
+  <div class="search">
+   <div class="search-inside">
+     Search 
+   </div>
+   <div class="search-logo">
+     <div class="search-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/482/482631.png" alt="Search Icon">
+</div>
+   </div>
+  </div>
+</div>
+<!--search menu end-->
+ </div>
+ <!--upper page end-->
+  </header>
+    <!--header end-->
+    
+    
+    <!--image slider start-->
+   <div class="slider">
+    <div class="slides">
+        <div class="slide"><img src="1.jpg" alt="Image 1"></div>
+        <div class="slide"><img src="2.jpg" alt="Image 2"></div>
+        <div class="slide"><img src="3.jpg" alt="Image 3"></div>
+        <div class="slide"><img src="4.jpg" alt="Image 4"></div>
+        <div class="slide"><img src="5.jpg" alt="Image 5"></div>
+        <div class="slide"><img src="6.jpg" alt="Image 6"></div>
+        <div class="slide"><img src="7.jpg" alt="Image 7"></div>
+        <div class="slide"><img src="8.jpg" alt="Image 8"></div>
+        <div class="slide"><img src="9.jpg" alt="Image 9"></div>
+        <div class="slide"><img src="10.jpg" alt="Image 10"></div>
+        <div class="slide"><img src="11.jpg" alt="Image 11"></div>
+    </div>
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+    <div class="dots">
+        <div class="dot active" onclick="goToSlide(0)"></div>
+        <div class="dot" onclick="goToSlide(1)"></div>
+        <div class="dot" onclick="goToSlide(2)"></div>
+        <div class="dot" onclick="goToSlide(3)"></div>
+        <div class="dot" onclick="goToSlide(4)"></div>
+        <div class="dot" onclick="goToSlide(5)"></div>
+        <div class="dot" onclick="goToSlide(6)"></div>
+        <div class="dot" onclick="goToSlide(7)"></div>
+        <div class="dot" onclick="goToSlide(8)"></div>
+        <div class="dot" onclick="goToSlide(9)"></div>
+        <div class="dot" onclick="goToSlide(10)"></div>
+    </div>
+</div>
+   <!--image slider end-->
+   <!--icon card start-->
+      <section class="icon-card">
+  <a href="index.html">
+    <div class="single-icon">
+      <img src="https://i.postimg.cc/DzbLVtMS/man-in-suit-and-tie.png" alt="Head Master" class="white-image">
+      <h1 class="icon-title">Principle Corner</h1>
+    </div>
+  </a>
+  <a href="section.html">
+    <div class="single-icon">
+      <img src="https://i.postimg.cc/t4bF0SHk/school.png" alt="Faculty & Staffs" class="white-image">
+      <h1 class="icon-title">Faculty & Staffs</h1>
+    </div>
+  </a>
+  <a href="feature.html">
+    <div class="single-icon">
+      <img src="https://i.postimg.cc/bv7zM57N/pie-chart.png" alt="Results" class="white-image">
+      <h1 class="icon-title">Results</h1>
+    </div>
+  </a>
+  <a href="feature.html">
+    <div class="single-icon">
+      <img src="https://i.postimg.cc/pL547dRz/student-with-graduation-cap.png" alt="Alumni" class="white-image">
+      <h1 class="icon-title">Alumni</h1>
+    </div>
+  </a>
+  <a href="feature.html">
+    <div class="single-icon">
+      <img src="https://i.postimg.cc/J4Dp7dvW/group-of-users-silhouette.png" alt="Clubs" class="white-image">
+      <h1 class="icon-title">Clubs</h1>
+    </div>
+  </a>
+  <a href="feature.html">
+    <div class="single-icon">
+      <img src="https://i.postimg.cc/fTXyLtFH/information-button.png" alt="Admission Info" class="white-image">
+      <h1 class="icon-title">Admission Info</h1>
+    </div>
+  </a>
+  <!-- Principal's Message Start -->
+<div class="pr-message">
+  <div class="pr-pic">
+    <img class="pr-resize" src="headtecher.jpg" alt="headteacher">
+  </div>
+  <div class="pr-bio">
+    <div class="pr-heading">
+      <h1>Principal's Message</h1>
+    </div>
+        <p>বিশ্ব আজ তথ্য ও প্রযুক্তি নির্ভরশীল। আধুনিক জাতি গঠনে এর কোন বিকল্প নেই।</p>
+
+<p>যার ধারাবাহিকতায় কাজী মন্টু কলেজ -এর বিভিন্ন কর্মকান্ড আজ ডিজিটাল প্রযুক্তির মাধ্যমে পরিচালিত হচ্ছে। ইন্টারনেট, কম্পিউটারের ব্যবহার, মাল্টিমিডিয়ার মাধ্যমে অনেক শ্রেণিকক্ষে পাঠদান কার্যক্রম অব্যাহত আছে।</p>
+
+<p>ছাত্রছাত্রী ও শিক্ষক কর্মচারীদের যাবতীয় তথ্য কলেজের ওয়েবসাইটে সন্নিবেশিত হয়েছে। অল্প সময়ের মধ্যেই সকল শ্রেণিকক্ষে মাল্টিমিডিয়ার সাহায্যে পাঠদান সম্পন্ন করা হবে।</p>
+
+<p>এর জন্য বিভিন্ন শিক্ষক ICT এর উপর শিক্ষক প্রশিক্ষণ কলেজ থেকে প্রশিক্ষণ গ্রহণ করেছেন। বাকি সকল শিক্ষক কলেজের নিজস্ব কম্পিউটার ল্যাবে ICT এর উপর In-house প্রশিক্ষণ গ্রহণ করেছেন। প্রশিক্ষণ কার্যক্রম এখনও অব্যাহত আছে।</p>
+
+<p>কলেজের ওয়েবসাইট ছাত্রছাত্রীদের তথ্য প্রযুক্তির ব্যবহার ও জ্ঞান অর্জনের সহায়তা করবে বলে আমি আশাবাদী। আমি কলেজের সাফল্য ও মঙ্গল কামনা করছি।</p>
+    <div class="pr-bio-end">
+      <span class="ex-design">LALIT CHANDRA BAIDYA</span><br>
+      Principal<br>
+     Kazi Montu College 
+    </div>
+  </div>
+</div>
+<!-- Principal's Message End -->
+ 
+  <!-- Principal's Message Start -->
+<div class="pr-message">
+  <div class="pr-pic">
+    <img class="pr-resize" src="smchead.jpg" alt="headteacher">
+  </div>
+  <div class="pr-bio">
+    <div class="pr-heading">
+      <h1>Chairman's Message</h1>
+    </div>
+<p>ঐতিহ্যবাহী কাজী মন্টু কলেজ ১৯৮৭ সাল থেকে এই জনপদে আধুনকি ও যুগোপযোগী শিক্ষার আলো বিস্তার করে যাচ্ছে। লেখাপড়ার পাশাপাশি খেলাধুলা, সাংস্কৃতিক অনুষ্ঠান ও বিভিন্ন সামাজিক কর্মকাণ্ডে এ প্রতিষ্ঠানটির রয়েছে গৌরবময় ইতিহাস।</p>
+
+<p>এ প্রতিষ্ঠানের গুণী শিক্ষক-শিক্ষিকা মণ্ডলীর অত্যন্ত নিষ্ঠার সাথে শিক্ষার্থীদের প্রাতিষ্ঠানিক শিক্ষার পাশাপাশি মানবীয় গুণাবলি অর্জনের ক্ষেত্রে বিশেষ ভূমিকা পালন করে যাচ্ছেন।</p>
+
+<p>এ শিক্ষা প্রতিষ্ঠানটি ছাত্র, শিক্ষক ও অভিভাবক সকলের ঐকান্তিক প্রচেষ্টায় একটি আদর্শ শিক্ষা প্রতিষ্ঠান হয়ে উঠুক, এটাই আমার একান্ত কাম্য।</p>
+
+<p>এ প্রতিষ্ঠানের শিক্ষার্থীরা শুধু লেখাপড়ায় নয়, সকল প্রকার সহশিক্ষা কার্যক্রমে আরও সক্রিয় অংশগ্রহণ করে প্রতিষ্ঠানের সুনাম অক্ষুন্ন রাখবে, এটাই আমার প্রত্যাশা।</p>
+
+<p>সুস্থধারার সাংস্কৃতি বিকাশ একটা জাতির জন্য খুবই প্রয়োজন। এ প্রতিষ্ঠানের একটি গ্রন্থাগার আছে এবং সেটাকে আরও সমৃদ্ধ করার প্রচেষ্টা অব্যাহত থাকবে।</p>
+
+<p>বর্তমানে অত্র প্রতিষ্ঠানটি গভর্নিংবডির তত্ত্বাবধানে এবং দক্ষ অধ্যক্ষের নেতৃত্বে এক ঝাঁক মেধাবী ও খ্যাতিমান শিক্ষক-শিক্ষিকাদের মাধ্যমে পাঠদান কার্যক্রম পরিচালিত হচ্ছে।</p>
+
+<p>কলেজের সার্বিক উন্নয়নে ছাত্র-ছাত্রী, শিক্ষক-শিক্ষিকা, সম্মানিত অভিভাবক-অভিভাবিকা, এলাকার বিশিষ্ট শিক্ষানুরাগী ও আপামর জনসাধারণের সার্বিক সহযোগিতা আমি একান্তভাবে কামনা করছি।</p>
+
+<p>আমি প্রতিষ্ঠানের সাথে সংশ্লিষ্ট সকলের সুস্বাস্থ্য ও দীর্ঘায়ু কামনা করছি।</p>
+    <div class="pr-bio-end">
+      <span class="ex-design">JASIKA NUR</span><br>
+      Chairman<br>
+     Kazi Montu College 
+    </div>
+  </div>
+</div>
+<!-- chairman's Message End -->
+
+ 
+</section>
+    <!--icon card end-->
+    
+    <!--welcome message start-->
+    <div class="welcome">
+      <div class="welcome-message">
+        <h1>
+          Welcome to<br> Kazi Montu College 
+        </h1>
+        <p>
+         কাজী মন্টু কলেজের ওয়েবসাইটে আপনাকে স্বাগতম! আমাদের প্রতিষ্ঠান 1987 সালে প্রতিষ্ঠিত হয়েছে এবং এর পর থেকে শিক্ষার ক্ষেত্রে এক অনন্য সুনাম অর্জন করে চলেছে। আমরা বিশ্বাস করি যে শিক্ষাই সমাজের উন্নতির মূল চাবিকাঠি। আমাদের মেধাবী শিক্ষকমণ্ডলী ও আধুনিক শিক্ষাব্যবস্থার মাধ্যমে শিক্ষার্থীদের সর্বোচ্চ মানের শিক্ষা প্রদান করতে আমরা অঙ্গীকারবদ্ধ। এই ওয়েবসাইটের মাধ্যমে আপনি আমাদের প্রতিষ্ঠানের ইতিহাস, বর্তমান কার্যক্রম, এবং ভবিষ্যৎ পরিকল্পনা সম্পর্কে বিস্তারিত জানতে পারবেন। শিক্ষার্থী, অভিভাবক, এবং সকল শুভাকাঙ্ক্ষীদের সহযোগিতা আমাদের পথচলাকে আরও সফল ও আনন্দময় করবে। আপনাদের মূল্যবান মতামত ও পরামর্শ আমাদেরকে আরও উন্নত এবং কার্যকর শিক্ষা প্রদানে সহায়ক হবে। ধন্যবাদ।
+        </p>
+      </div>
+      <!--message nav start-->
+      <div class="message-nav">
+        
+        <div class="content">
+    <!-- First Section: Our Vision -->
+    <input type="checkbox" id="toggle1">
+    <label class="vision-section" for="toggle1">
+        <span class="vision-text">আমাদের লক্ষ্য</span>
+        <span class="icon fas fa-chevron-right"></span> <!-- FontAwesome icon -->
+    </label>
+    <div class="hidden-text">
+       কাজী মন্টু কলেজ এর ভিশন: আমাদের ভিশন হলো এমন একটি শিক্ষাব্যবস্থা গড়ে তোলা, যেখানে প্রতিটি শিক্ষার্থী সুশিক্ষিত, সৃজনশীল ও সমাজে কার্যকর ভূমিকা পালনকারী নাগরিক হিসেবে নিজেদের প্রতিষ্ঠিত করতে পারে। আমরা একটি আধুনিক, বিজ্ঞানমনস্ক ও প্রযুক্তিনির্ভর শিক্ষার পরিবেশ সৃষ্টির মাধ্যমে শিক্ষার্থীদের ভবিষ্যতের জন্য প্রস্তুত করতে চাই। আমাদের লক্ষ্য: উচ্চ মানের শিক্ষার পরিবেশ: শিক্ষার্থীদের জন্য একটি সমৃদ্ধ শিক্ষার পরিবেশ তৈরি করা, যেখানে তারা জ্ঞান, দক্ষতা ও মানসিক বিকাশ লাভ করতে পারে। প্রযুক্তিগত অগ্রগতি: আধুনিক প্রযুক্তি ও উদ্ভাবনের সাথে শিক্ষার্থীদের পরিচিত করা, যাতে তারা আন্তর্জাতিক পর্যায়ে প্রতিযোগিতামূলক হতে পারে। সৃজনশীলতা ও উদ্ভাবন: শিক্ষার্থীদের মধ্যে সৃজনশীল চিন্তা ও উদ্ভাবনী ক্ষমতা বিকাশ করা, যাতে তারা নতুন ধারণা ও সমাধান উদ্ভাবন করতে পারে। ন্যায়বিচার ও নৈতিকতা: শিক্ষার্থীদের মধ্যে ন্যায়বিচার, নৈতিকতা ও সমাজের প্রতি দায়বদ্ধতার মূল্যবোধ জাগ্রত করা। সমাজ ও দেশের উন্নয়ন: শিক্ষার্থীদের সমাজ ও দেশের উন্নয়নে নেতৃত্ব দেয়ার ক্ষমতা ও মানসিকতা তৈরি করা। সমতা ও অন্তর্ভুক্তি: একটি অন্তর্ভুক্তিমূলক শিক্ষার পরিবেশ তৈরি করা, যেখানে সকল শিক্ষার্থী সমান সুযোগ ও মর্যাদা পায়। আমরা দৃঢ়প্রতিজ্ঞ যে, আমাদের এই ভিশন বাস্তবায়নে শিক্ষার্থী, শিক্ষক, অভিভাবক ও সমাজের সকল স্তরের মানুষের সক্রিয় সহযোগিতা আমাদের পথচলাকে সফল ও সমৃদ্ধ করবে।
+    </div>
+
+    <!-- Second Section: Our Mission -->
+    <input type="checkbox" id="toggle2">
+    <label class="vision-section" for="toggle2">
+        <span class="vision-text">আমাদের মিশন</span>
+        <span class="icon fas fa-chevron-right"></span> <!-- FontAwesome icon -->
+    </label>
+    <div class="hidden-text">
+        সাম্প্রতিক নোটিশ
+
+২০২৩-২৪ শিক্ষাবর্ষে ভর্তিকৃত শিক্ষার্থীদের ৪র্থ সেমিস্তটার ( প্রিটেস্ট) পরীক্ষার ফলাফল ওয়েবসাইটে (পরীক্ষার ফলাফল)-এ ক্লিক করে পাওয়া যাবে- একাদশ শ্রেণীর ১ম সেমিস্টার পরীক্ষার রুটিন- ২০২৪-২৫ শিক্ষাবর্ষে ভর্তিকৃত শিক্ষার্থীদের তত্তাবধায়নের জন্য শিক্ষকদের মোবাইল নম্বর সহ নামের তালিকা প্রকাশ: একাদশ ও দ্বাদশ শ্রেণির ক্লাস রুটিন
+আমাদের দৃষ্টি
+আমাদের দৃষ্টি
+Vission
+
+
+আমাদের দৃষ্টি
+
+
+কাজী মন্টু কলেজ এর ভিশন: আমাদের ভিশন হলো এমন একটি শিক্ষাব্যবস্থা গড়ে তোলা, যেখানে প্রতিটি শিক্ষার্থী সুশিক্ষিত, সৃজনশীল ও সমাজে কার্যকর ভূমিকা পালনকারী নাগরিক হিসেবে নিজেদের প্রতিষ্ঠিত করতে পারে। আমরা একটি আধুনিক, বিজ্ঞানমনস্ক ও প্রযুক্তিনির্ভর শিক্ষার পরিবেশ সৃষ্টির মাধ্যমে শিক্ষার্থীদের ভবিষ্যতের জন্য প্রস্তুত করতে চাই। আমাদের লক্ষ্য: উচ্চ মানের শিক্ষার পরিবেশ: শিক্ষার্থীদের জন্য একটি সমৃদ্ধ শিক্ষার পরিবেশ তৈরি করা, যেখানে তারা জ্ঞান, দক্ষতা ও মানসিক বিকাশ লাভ করতে পারে। প্রযুক্তিগত অগ্রগতি: আধুনিক প্রযুক্তি ও উদ্ভাবনের সাথে শিক্ষার্থীদের পরিচিত করা, যাতে তারা আন্তর্জাতিক পর্যায়ে প্রতিযোগিতামূলক হতে পারে। সৃজনশীলতা ও উদ্ভাবন: শিক্ষার্থীদের মধ্যে সৃজনশীল চিন্তা ও উদ্ভাবনী ক্ষমতা বিকাশ করা, যাতে তারা নতুন ধারণা ও সমাধান উদ্ভাবন করতে পারে। ন্যায়বিচার ও নৈতিকতা: শিক্ষার্থীদের মধ্যে ন্যায়বিচার, নৈতিকতা ও সমাজের প্রতি দায়বদ্ধতার মূল্যবোধ জাগ্রত করা। সমাজ ও দেশের উন্নয়ন: শিক্ষার্থীদের সমাজ ও দেশের উন্নয়নে নেতৃত্ব দেয়ার ক্ষমতা ও মানসিকতা তৈরি করা। সমতা ও অন্তর্ভুক্তি: একটি অন্তর্ভুক্তিমূলক শিক্ষার পরিবেশ তৈরি করা, যেখানে সকল শিক্ষার্থী সমান সুযোগ ও মর্যাদা পায়। আমরা দৃঢ়প্রতিজ্ঞ যে, আমাদের এই ভিশন বাস্তবায়নে শিক্ষার্থী, শিক্ষক, অভিভাবক ও সমাজের সকল স্তরের মানুষের সক্রিয় সহযোগিতা আমাদের পথচলাকে সফল ও সমৃদ্ধ করবে।
+    </div>
+
+    <!-- Third Section: Our Values -->
+    <input type="checkbox" id="toggle3">
+    <label class="vision-section" for="toggle3">
+        <span class="vision-text">প্রতিষ্ঠা সদস্যের বানী</span>
+        <span class="icon fas fa-chevron-right"></span> <!-- FontAwesome icon -->
+    </label>
+    <div class="hidden-text">
+       আলোকিত মানুষ গড়ার ক্ষেত্রে একটি ভালো শিক্ষা প্রতিষ্ঠান সব সময় গুরুত্ব বহন করে। গোপালগঞ্জ জেলায় প্রতিষ্ঠিত কাজী মন্টু কলেজ তার মধ্যে অন্যতম একটি। শৈশব জীবন ও কিশোর ছাত্র জীবনে কয়েক কিলোমিটার রাস্তা পায়ে হেটে শিক্ষা প্রতিষ্ঠানে যাওয়ার স্মৃতি আজও আমাকে তাড়িয়ে বেড়ায়। মেধা থাকা সত্বেও বাস্তব প্রতিকূলতার মুখে অনেক শিক্ষার্থী ঝরে পড়ে। তাই শিক্ষিত ও মেধাবী জাতি গড়ে তুলতে গোপালগঞ্জ জেলার কোটালীপাড়া থানাধীন বিভিন্ন প্রাইমারী স্কুল, মাধ্যমিক স্কুল ও কলেজের পাশপাশি আমার বাবা মরহুম কাজী মাহমুদ হোসেন মন্টু তার নামে প্রতিষ্ঠা করেন এই কলেজটি। ১৯৮৭ সালে প্রতিষ্ঠিত কলেজটি এখন বিশ্ববিদ্যালয় কলেজে রূপ লাভ করেছে। দক্ষ কলেজ পরিচালনা পর্ষদের তত্ত্বাবধানে যোগ্যতাসম্পন্ন শিক্ষকমন্ডলীর শিক্ষাদানে শিক্ষার্থীরা সেরা ফলাফল করছে। আমি খুবই আনন্দিত হই যখন শুনি এ কলেজটি কোটালীপাড়ার মধ্যে সেরা তালিকায় রয়েছে। আমি গর্ববোধ করি, যখন শুনি এ কলেজের শিক্ষার্থীরা উচ্চ শিক্ষা নিয়ে কর্মক্ষেত্রে সফল হচ্ছে। তখন মনে করি আমার বাবার কলেজ প্রতিষ্ঠা বিফলে যায় নি। বর্তমান প্রতিযোগিতার যুগে সৃজনশীল মেধা বিকাশে এ কলেজ অগ্রণী ভূমিকা পালন করবে, এমনটাই কামনা করি সব সময়। আমার বাবার নামে এ কলেজ প্রতিষ্ঠা করার মধ্য দিয়ে বাবার স্মৃতি আজও অম্লান হয়ে আছে। আমি মনে করি, পিতা মাতার প্রতি শ্রদ্ধাবোধ, ভালোবাসা ও সম্মান দেখানো শিক্ষার্থীদের কর্তব্যের মধ্যে রয়েছে। আর এ কর্তব্যবোধ হৃদয়ে ধারন করতে হবে সব শিক্ষার্থীকে। সততা, ন্যয়- নীতির মধ্য দিয়ে শিক্ষিত জাতি গড়ে ওঠবে। সে দিন বেশি দুরে নয়, আমরা শতভাগ শিক্ষিত জাতি হিসেবে আত্ম- মর্যাদাশীল হবো। উন্নত জাতি হিসেবে প্রতিষ্ঠিত হব। কাজী মন্টু কলেজের অগ্রযাত্রা প্রশংসার দাবি রাখে। এই কলেজের নামে সমৃদ্ধ ওয়েব সাইটে সংরক্ষিত সকল তথ্য উপাত্ত শিক্ষার্থীদের পাশাপাশি বিশ্ব পরিসরে স্থান পাবে এটাও কামনা করছি।
+    </div>
+</div>
+        
+      </div>
+      <!--meassage nav end-->
+      
+      
+    </div>
+    
+    
+    <!--welcome message end-->
+    
+    
+    <!--The last dance start-->
+    
+      <div class="background"> 
+   <div class="scrollable-text"> 
+    <div class="college-info"> 
+     <div class="college-text"> 
+      <h1>Kazi Montu College</h1> 
+      <p>A wonderful serenity has taken possession of my entire soul...</p> 
+     </div> 
+     <div class="img-style"> 
+      <img src="1.jpg" alt="College Image"> 
+     </div> 
+    </div> 
+    <div class="pro-box"> 
+     <div class="my-box"> 
+      <h1>Teacher<br>44</h1> 
+     </div> 
+     <div class="my-box"> 
+      <h1>Years<br>76</h1> 
+     </div> 
+     <div class="my-box"> 
+      <h1>Buildings<br>5</h1> 
+     </div> 
+     <div class="my-box"> 
+      <h1>Students<br>800</h1> 
+     </div> 
+    </div> 
+    <div class="last-card"> 
+     <footer class="footer"> <!-- Contact Information --> 
+      <div class="footer-content"> 
+       <div class="footer-section"> 
+        <p>
+<a href="https://www.google.com/maps?q=23.0628035,90.0446242" target="_blank"><i class="fas fa-map-marker-alt"></i></a> Location</p> 
+        <p>Bhangerhat, Kotalipara, Gooalgonj </p> 
+       </div> 
+       <div class="footer-section"> 
+        <p><a href="mailto:kazimontucollege1987@gmail.com"><i class="fas fa-envelope"></i><a> Email</p> 
+        <p>kazimontucollege1987@gmail.com<br>
+        kazimontucollege@yahoo.com</p> 
+       </div> 
+       <div class="footer-section"> 
+        <p>
+<a href="tel:+8801713649196"><i class="fas fa-phone-alt"></a></i> Phone</p> 
+        <p>01713649196<br>01309109592</p> 
+       </div> 
+      </div> <!-- Social Media Icons --> 
+      <div class="footer-icons"> <a href="https://www.facebook.com/kmc.info" target="_blank"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+      </div> 
+     </footer> 
+    </div> <!-- School Info and Site Map --> 
+    <div class="school-info"> 
+     <h1>Kazi Montu College</h1> 
+     <p>Your gateway to world-class education and knowledge.</p> 
+     <div class="site-map"> 
+      <h2>Site Map</h2> 
+      <div class="site-map-links"> 
+       <div class="left"> 
+        <ul> 
+         <li><a href="feature.html">About Us</a></li> 
+         <li><a href="feature.html">Admissions</a></li> 
+         <li><a href="section.html">Academics</a></li> 
+         <li><a href="section.html">Faculty</a></li> 
+         <li><a href="feature.html">Events</a></li> 
+        </ul> 
+       </div> 
+       <div class="right"> 
+        <ul> 
+         <li><a href="https://www.facebook.com/shatabarsaTv/videos/1052221065952522/?app=fbl">News</a></li> 
+         <li><a href="feature.html">Gallery</a></li> 
+         <li><a href="tel:+8801309109592">Contact Us</a></li> 
+         <li><a href="feature.html">Resources</a></li> 
+         <li><a href="feature.html">Alumni</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+    
+    
+    <!--the last dance end-->
+    
+    <script src="slide.js"></script>
+</body>
+
+</html>
